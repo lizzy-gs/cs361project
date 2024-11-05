@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <h1 id="title">Pomodoro Study Timer</h1>
+    <div id="popup">
+        <p>New! Customize timer lengths in the settings</p>
+        <button id="closePopup">X</button>
+    </div>
+    <button id="settingsIcon">Settings</button>
+    <button id="information">?</button>
+
+    <div id="timerBox">
+        <div id="selectTimer">
+            <button id="pomodoro" class="timerOption">Pomodoro</button>
+            <button id="shortBreak" class="timerOption">Short Break</button>
+            <button id="longBreak" class="timerOption">Long Break</button>
+        </div>
+        <h2 id="timer">10:00</h2>
+        <button id="startTimer">Start Timer</button>
+    </div>
+
+    <div id="info" class="hidden">
+        <h2>What is the Pomodoro Method?</h2>
+        <p>The Pomodoro Technique is a time management method that involves working in focused intervals, typically 25 minutes, followed by a short break of 5 minutes. After completing four cycles of work and breaks, a longer break of about 15 minutes is taken. This approach helps improve focus and productivity by breaking tasks into manageable segments, reducing burnout, and promoting regular rest. By minimizing distractions and sticking to these intervals, the technique helps maintain consistent progress on tasks.</p>
+        <h2>How do I use this?</h2>
+        <ul>
+            <li>Step 1: Pick a specific task to work on</li>
+            <li>Step 2: Start the Pomodoro timer and begin working on your task</li>
+            <li>Step 3: After completing the Pomodoro interval, start the short break timer and stop working</li>
+            <li>Step 4: Repeat steps 2 and 3 four times</li>
+            <li>Step 5: Take a long break</li>
+            <li>Step 6: Repeat steps 3-5 until your task or list of tasks is completed</li>
+        </ul>
+    </div>
+
+    <div id="settingsMenu" class="hidden">
+        <h2 id="settingsHeader">Settings</h2>
+        <button id="closeSettings">X</button>
+        <div id="customTimer">
+            <h3>Customize Timer Length</h3>
+            <label for="pomodoroLength">Pomodoro:</label>
+            <input type="number" id="pomodoroLength" placeholder="Enter minutes (whole number)" min="1" value="25"><br>
+            <p id="pomodoroWarning">This is a large amount of time! Are you sure?</p>
+            <label for="shortBreakLength">Short Break:</label>
+            <input type="number" id="shortBreakLength" placeholder="Enter minutes (whole number)" min="1" value="5"><br>
+            <p id="shortWarning">This is a large amount of time! Are you sure?</p>
+            <label for="longBreakLength">Long Break:</label>
+            <input type="number" id="longBreakLength" placeholder="Enter minutes (whole number)" min="1" value="15"><br>
+            <p id="longWarning">This is a large amount of time! Are you sure?</p>
+            <p>Customized timer lengths may no longer follow Pomodoro method!</p>
+            <button id="save">Save</button>
+            <button id="reset">Reset to Defaults</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>

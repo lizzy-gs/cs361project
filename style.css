@@ -1,0 +1,189 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+
+    margin: 5px;
+    padding: 0;
+}
+
+ul {
+    text-align: left;
+}
+
+button {
+
+    padding: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+button:hover {
+
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+input {
+
+    margin: 10px;
+}
+
+.hidden {
+
+    display: none;
+}
+
+#title {
+
+    margin: 0;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 40px;
+}
+
+#settingsIcon {
+
+    margin: 0;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#information {
+
+    margin: 0;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 55px;
+    right: 10px;
+    font-size: 18px;
+    border-width: 1px;
+    border-radius: 50%;
+}
+
+#info {
+
+    padding: 15px;
+    width: 40vw;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: gainsboro;
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#popup {
+
+    margin: 0;
+    padding: 5px;
+    width: 150px;
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    top: 5px;
+    right: 90px;
+    background-color: gainsboro;
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+#closePopup {
+
+    margin: 0;
+    padding: 2px;
+    border: none;
+    background-color: gainsboro;
+}
+
+#timerBox {
+   
+    margin-top: 12%;
+    padding: 20px;
+    text-align: center;
+}
+
+#timer {
+
+    font-size: 40px;
+}
+
+.timerOption {
+
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#settingsMenu {
+
+    padding: 15px;
+    width: 50vw;
+    height: 55vh;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: gainsboro;
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#closeSettings {
+
+    margin: 0;
+    padding: 2px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 25px;
+    border: none;
+    background-color: gainsboro;
+}
+
+#settingsHeader {
+
+    margin: 0;
+    font-size: 30px;
+}
+
+#save {
+
+    margin: 10px;
+    padding: 5px;
+}
+
+#reset {
+
+    margin: 10px;
+    padding: 5px;
+}
+
+#pomodoroWarning {
+
+    display: none;
+}
+
+#shortWarning {
+
+    display: none;
+}
+
+#longWarning {
+
+    display: none;
+}
