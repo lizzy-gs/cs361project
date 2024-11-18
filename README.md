@@ -8,8 +8,8 @@
   Using ZeroMQ, call send_string with the socket and pass the JSON as a parameter. Use json.dumps before passing it to convert it to string format.
 
   ### Socket Info
-    REQ mode
-    Connect to "tcp://localhost:5555"
+    socket = context.socket(zmq.REQ)
+    socket.connect("tcp://localhost:5555")
 
   ### Example Call
     data = {
