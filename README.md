@@ -26,3 +26,6 @@
   ### Example Call
     cagr = socket.recv_string()
     print(f"{cagr}%")
+
+## UML Sequence Diagram
+  <img width="626" alt="image" src="https://github.com/user-attachments/assets/5b36a5ae-18f6-42fd-8fee-8cafecbb3e3e">
