@@ -28,4 +28,5 @@
     print(f"{cagr}%")
 
 ## UML Sequence Diagram
-  <img width="626" alt="image" src="https://github.com/user-attachments/assets/5b36a5ae-18f6-42fd-8fee-8cafecbb3e3e">
+  <img width="564" alt="image" src="https://github.com/user-attachments/assets/11010139-1869-4417-8637-9e05edabf781">
+
