@@ -21,7 +21,7 @@
     socket.send_string(json.dumps(data))
 
 ## How to recieve data
-  Use the recv_string() function to recieve the CAGR as a string. The CAGR will be in percent format, but will not contain a percent symbol.
+  After sending data, use the recv_string() function to recieve the CAGR as a string. The CAGR will be in percent format, but will not contain a percent symbol.
 
   ### Example Call
     cagr = socket.recv_string()
